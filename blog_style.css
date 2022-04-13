@@ -4,30 +4,36 @@ body{
 .navbar{
     background: url(https://res.cloudinary.com/dakoopdcp/image/upload/v1649875637/solidworks-2021-hardware_xodwyc.jpg);
     background-size: 100%;
-    height: 350px;
+    height: 300px;
 }
 .navbar * {
     color: #FFF !important;
 }
-.topnav{
-    background-color: #4f60d9;
-}
-.topnav a{
+
+.topnav a,
+.post .title a h3,
+.side .content a,
+.post .details,
+.post .content *{
     color: #FFF;
 }
-.topnav a:hover{
-    color:#F5AB35;
-}
-.side{
-    background-color: #4f60d9;
-}
-.side h5{
-    color: #fdfdfd;
-    background-color: unset;
-}
-.side .content{
-    background-color: unset;
-}
+
+.topnav,
+.side,
+.post,
 #footer {
     background: #4f60d9;
 }
+
+.topnav a:hover{
+    color:#F5AB35;
+}
+
+.side h5{
+    color: #fdfdfd;
+}
+.side h5,
+.side .content{
+    background-color: unset;
+}
+
